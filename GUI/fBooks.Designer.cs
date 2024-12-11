@@ -31,6 +31,7 @@
             panel1 = new Panel();
             label1 = new Label();
             panel2 = new Panel();
+            dateTimePicker1 = new DateTimePicker();
             textBox10 = new TextBox();
             label10 = new Label();
             button4 = new Button();
@@ -55,7 +56,6 @@
             label2 = new Label();
             panel3 = new Panel();
             dataGridView1 = new DataGridView();
-            dateTimePicker1 = new DateTimePicker();
             panel1.SuspendLayout();
             panel2.SuspendLayout();
             panel3.SuspendLayout();
@@ -73,7 +73,7 @@
             // 
             // label1
             // 
-            label1.Dock = DockStyle.Fill;
+            label1.Anchor = AnchorStyles.Top;
             label1.Font = new Font("Segoe UI", 14F, FontStyle.Bold);
             label1.ForeColor = Color.White;
             label1.Location = new Point(0, 0);
@@ -114,8 +114,17 @@
             panel2.Size = new Size(1289, 353);
             panel2.TabIndex = 1;
             // 
+            // dateTimePicker1
+            // 
+            dateTimePicker1.Anchor = AnchorStyles.Top;
+            dateTimePicker1.Location = new Point(801, 168);
+            dateTimePicker1.Name = "dateTimePicker1";
+            dateTimePicker1.Size = new Size(317, 27);
+            dateTimePicker1.TabIndex = 23;
+            // 
             // textBox10
             // 
+            textBox10.Anchor = AnchorStyles.Top;
             textBox10.Location = new Point(246, 212);
             textBox10.Name = "textBox10";
             textBox10.Size = new Size(317, 27);
@@ -123,6 +132,7 @@
             // 
             // label10
             // 
+            label10.Anchor = AnchorStyles.Top;
             label10.AutoSize = true;
             label10.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
             label10.ForeColor = Color.White;
@@ -134,6 +144,7 @@
             // 
             // button4
             // 
+            button4.Anchor = AnchorStyles.Top;
             button4.BackColor = Color.LightSlateGray;
             button4.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
             button4.ForeColor = Color.White;
@@ -143,9 +154,11 @@
             button4.TabIndex = 20;
             button4.Text = "Search";
             button4.UseVisualStyleBackColor = false;
+            button4.Click += button4_Click;
             // 
             // button3
             // 
+            button3.Anchor = AnchorStyles.Top;
             button3.BackColor = Color.LightSlateGray;
             button3.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
             button3.ForeColor = Color.White;
@@ -155,9 +168,11 @@
             button3.TabIndex = 19;
             button3.Text = "Delete";
             button3.UseVisualStyleBackColor = false;
+            button3.Click += button3_Click;
             // 
             // button2
             // 
+            button2.Anchor = AnchorStyles.Top;
             button2.BackColor = Color.LightSlateGray;
             button2.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
             button2.ForeColor = Color.White;
@@ -167,9 +182,11 @@
             button2.TabIndex = 18;
             button2.Text = "Edit";
             button2.UseVisualStyleBackColor = false;
+            button2.Click += button2_Click;
             // 
             // button1
             // 
+            button1.Anchor = AnchorStyles.Top;
             button1.BackColor = Color.LightSlateGray;
             button1.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
             button1.ForeColor = Color.White;
@@ -179,16 +196,21 @@
             button1.TabIndex = 17;
             button1.Text = "Add";
             button1.UseVisualStyleBackColor = false;
+            button1.Click += button1_Click;
             // 
             // textBox9
             // 
+            textBox9.Anchor = AnchorStyles.Top;
             textBox9.Location = new Point(427, 302);
             textBox9.Name = "textBox9";
+            textBox9.PlaceholderText = "Input title or author";
             textBox9.Size = new Size(317, 27);
             textBox9.TabIndex = 16;
+            textBox9.Tag = "";
             // 
             // textBox5
             // 
+            textBox5.Anchor = AnchorStyles.Top;
             textBox5.Location = new Point(801, 123);
             textBox5.Name = "textBox5";
             textBox5.Size = new Size(317, 27);
@@ -196,6 +218,7 @@
             // 
             // textBox6
             // 
+            textBox6.Anchor = AnchorStyles.Top;
             textBox6.Location = new Point(801, 78);
             textBox6.Name = "textBox6";
             textBox6.Size = new Size(317, 27);
@@ -203,6 +226,7 @@
             // 
             // textBox7
             // 
+            textBox7.Anchor = AnchorStyles.Top;
             textBox7.Location = new Point(801, 33);
             textBox7.Name = "textBox7";
             textBox7.Size = new Size(317, 27);
@@ -210,6 +234,7 @@
             // 
             // textBox4
             // 
+            textBox4.Anchor = AnchorStyles.Top;
             textBox4.Location = new Point(246, 168);
             textBox4.Name = "textBox4";
             textBox4.Size = new Size(317, 27);
@@ -217,6 +242,7 @@
             // 
             // textBox3
             // 
+            textBox3.Anchor = AnchorStyles.Top;
             textBox3.Location = new Point(246, 123);
             textBox3.Name = "textBox3";
             textBox3.Size = new Size(317, 27);
@@ -224,6 +250,7 @@
             // 
             // textBox2
             // 
+            textBox2.Anchor = AnchorStyles.Top;
             textBox2.Location = new Point(246, 78);
             textBox2.Name = "textBox2";
             textBox2.Size = new Size(317, 27);
@@ -231,6 +258,7 @@
             // 
             // textBox1
             // 
+            textBox1.Anchor = AnchorStyles.Top;
             textBox1.Location = new Point(246, 33);
             textBox1.Name = "textBox1";
             textBox1.ReadOnly = true;
@@ -239,6 +267,7 @@
             // 
             // label9
             // 
+            label9.Anchor = AnchorStyles.Top;
             label9.AutoSize = true;
             label9.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
             label9.ForeColor = Color.White;
@@ -250,6 +279,7 @@
             // 
             // label8
             // 
+            label8.Anchor = AnchorStyles.Top;
             label8.AutoSize = true;
             label8.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
             label8.ForeColor = Color.White;
@@ -261,6 +291,7 @@
             // 
             // label7
             // 
+            label7.Anchor = AnchorStyles.Top;
             label7.AutoSize = true;
             label7.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
             label7.ForeColor = Color.White;
@@ -272,6 +303,7 @@
             // 
             // label6
             // 
+            label6.Anchor = AnchorStyles.Top;
             label6.AutoSize = true;
             label6.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
             label6.ForeColor = Color.White;
@@ -283,6 +315,7 @@
             // 
             // label5
             // 
+            label5.Anchor = AnchorStyles.Top;
             label5.AutoSize = true;
             label5.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
             label5.ForeColor = Color.White;
@@ -294,6 +327,7 @@
             // 
             // label4
             // 
+            label4.Anchor = AnchorStyles.Top;
             label4.AutoSize = true;
             label4.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
             label4.ForeColor = Color.White;
@@ -305,6 +339,7 @@
             // 
             // label3
             // 
+            label3.Anchor = AnchorStyles.Top;
             label3.AutoSize = true;
             label3.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
             label3.ForeColor = Color.White;
@@ -316,6 +351,7 @@
             // 
             // label2
             // 
+            label2.Anchor = AnchorStyles.Top;
             label2.AutoSize = true;
             label2.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
             label2.ForeColor = Color.White;
@@ -345,13 +381,6 @@
             dataGridView1.Size = new Size(1289, 302);
             dataGridView1.TabIndex = 0;
             dataGridView1.SelectionChanged += dataGridView1_SelectionChanged;
-            // 
-            // dateTimePicker1
-            // 
-            dateTimePicker1.Location = new Point(801, 168);
-            dateTimePicker1.Name = "dateTimePicker1";
-            dateTimePicker1.Size = new Size(317, 27);
-            dateTimePicker1.TabIndex = 23;
             // 
             // fBooks
             // 
