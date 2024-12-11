@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("QL_TruongHoc")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8aeb27544d5406ece1577c760c76810eddfee083")]
 [assembly: System.Reflection.AssemblyProductAttribute("QL_TruongHoc")]
 [assembly: System.Reflection.AssemblyTitleAttribute("QL_TruongHoc")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
