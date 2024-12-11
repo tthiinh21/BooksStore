@@ -24,7 +24,6 @@ namespace QL_TruongHoc.DAO
         public List<string> Genres { get; set; }
         [BsonElement("rating")]
         public double Rating { get; set; }
-
         [BsonElement("publisher")]
         public string Publisher { get; set; }
 
