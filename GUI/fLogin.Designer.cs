@@ -34,6 +34,7 @@
             ptb_close = new Panel();
             lb_logo = new Label();
             grb_content = new GroupBox();
+            ptb = new PictureBox();
             btn_thoat = new Button();
             btn_dangnhap = new Button();
             txt_matkhau = new TextBox();
@@ -44,9 +45,11 @@
             pn_right = new Panel();
             ptb_logo = new Panel();
             pn_top = new Panel();
-            pn_bottom = new Panel();
             ptb_minisize = new Panel();
+            pn_bottom = new Panel();
             grb_content.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)ptb).BeginInit();
+            ptb_logo.SuspendLayout();
             pn_top.SuspendLayout();
             SuspendLayout();
             // 
@@ -90,9 +93,9 @@
             lb_logo.ForeColor = Color.White;
             lb_logo.Location = new Point(45, 10);
             lb_logo.Name = "lb_logo";
-            lb_logo.Size = new Size(179, 18);
+            lb_logo.Size = new Size(127, 18);
             lb_logo.TabIndex = 1;
-            lb_logo.Text = "Quản lý cửa hàng sách";
+            lb_logo.Text = "Books Manager";
             // 
             // grb_content
             // 
@@ -112,6 +115,14 @@
             grb_content.TabIndex = 21;
             grb_content.TabStop = false;
             // 
+            // ptb
+            // 
+            ptb.Location = new Point(0, 0);
+            ptb.Name = "ptb";
+            ptb.Size = new Size(30, 31);
+            ptb.TabIndex = 0;
+            ptb.TabStop = false;
+            // 
             // btn_thoat
             // 
             btn_thoat.BackColor = Color.LightSlateGray;
@@ -121,7 +132,7 @@
             btn_thoat.Name = "btn_thoat";
             btn_thoat.Size = new Size(139, 34);
             btn_thoat.TabIndex = 9;
-            btn_thoat.Text = "Thoát";
+            btn_thoat.Text = "Exit";
             btn_thoat.UseVisualStyleBackColor = false;
             btn_thoat.Click += btn_thoat_Click;
             // 
@@ -134,7 +145,7 @@
             btn_dangnhap.Name = "btn_dangnhap";
             btn_dangnhap.Size = new Size(139, 34);
             btn_dangnhap.TabIndex = 8;
-            btn_dangnhap.Text = "Đăng nhập";
+            btn_dangnhap.Text = "Login";
             btn_dangnhap.UseVisualStyleBackColor = false;
             btn_dangnhap.Click += button1_Click;
             // 
@@ -163,9 +174,9 @@
             lb_matkhau.ForeColor = Color.White;
             lb_matkhau.Location = new Point(53, 117);
             lb_matkhau.Name = "lb_matkhau";
-            lb_matkhau.Size = new Size(82, 18);
+            lb_matkhau.Size = new Size(88, 18);
             lb_matkhau.TabIndex = 5;
-            lb_matkhau.Text = "Mật khẩu:";
+            lb_matkhau.Text = "Password:";
             // 
             // lb_taikhoan
             // 
@@ -174,9 +185,9 @@
             lb_taikhoan.ForeColor = Color.White;
             lb_taikhoan.Location = new Point(53, 71);
             lb_taikhoan.Name = "lb_taikhoan";
-            lb_taikhoan.Size = new Size(87, 18);
+            lb_taikhoan.Size = new Size(90, 18);
             lb_taikhoan.TabIndex = 4;
-            lb_taikhoan.Text = "Tài khoản:";
+            lb_taikhoan.Text = "Username:";
             // 
             // lb_dangnhap
             // 
@@ -185,9 +196,9 @@
             lb_dangnhap.ForeColor = Color.White;
             lb_dangnhap.Location = new Point(209, 20);
             lb_dangnhap.Name = "lb_dangnhap";
-            lb_dangnhap.Size = new Size(153, 26);
+            lb_dangnhap.Size = new Size(70, 26);
             lb_dangnhap.TabIndex = 0;
-            lb_dangnhap.Text = "ĐĂNG NHẬP";
+            lb_dangnhap.Text = "Login";
             // 
             // pn_right
             // 
@@ -201,6 +212,7 @@
             // ptb_logo
             // 
             ptb_logo.BackColor = Color.LightCyan;
+            ptb_logo.Controls.Add(ptb);
             ptb_logo.Location = new Point(4, 2);
             ptb_logo.Name = "ptb_logo";
             ptb_logo.Size = new Size(30, 31);
@@ -221,15 +233,6 @@
             pn_top.TabIndex = 17;
             pn_top.MouseDown += pn_top_MouseDown;
             // 
-            // pn_bottom
-            // 
-            pn_bottom.BackColor = Color.LightSlateGray;
-            pn_bottom.Dock = DockStyle.Bottom;
-            pn_bottom.Location = new Point(0, 249);
-            pn_bottom.Name = "pn_bottom";
-            pn_bottom.Size = new Size(548, 37);
-            pn_bottom.TabIndex = 18;
-            // 
             // ptb_minisize
             // 
             ptb_minisize.Anchor = AnchorStyles.Top | AnchorStyles.Right;
@@ -242,7 +245,16 @@
             ptb_minisize.TabIndex = 1;
             ptb_minisize.Click += ptb_minisize_Click;
             // 
-            // fDangNhap
+            // pn_bottom
+            // 
+            pn_bottom.BackColor = Color.LightSlateGray;
+            pn_bottom.Dock = DockStyle.Bottom;
+            pn_bottom.Location = new Point(0, 249);
+            pn_bottom.Name = "pn_bottom";
+            pn_bottom.Size = new Size(548, 37);
+            pn_bottom.TabIndex = 18;
+            // 
+            // fLogin
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
@@ -253,10 +265,12 @@
             Controls.Add(pn_top);
             Controls.Add(pn_bottom);
             FormBorderStyle = FormBorderStyle.None;
-            Name = "fDangNhap";
+            Name = "fLogin";
             Text = "fDangNhap";
             grb_content.ResumeLayout(false);
             grb_content.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)ptb).EndInit();
+            ptb_logo.ResumeLayout(false);
             pn_top.ResumeLayout(false);
             pn_top.PerformLayout();
             ResumeLayout(false);
@@ -281,5 +295,6 @@
         private Button btn_dangnhap;
         private Button btn_thoat;
         private Panel ptb_minisize;
+        private PictureBox ptb;
     }
 }
