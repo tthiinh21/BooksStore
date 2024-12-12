@@ -17,7 +17,7 @@ namespace QL_TruongHoc.GUI
         public const int WM_NCLBUTTONDOWN = 0xA1;
         public const int HT_CAPTION = 0x2;
         private string userRole;
-        
+
         [System.Runtime.InteropServices.DllImport("user32.dll")]
         public static extern int SendMessage(IntPtr hWnd, int Msg, int wParam, int lParam);
         [System.Runtime.InteropServices.DllImport("user32.dll")]
@@ -111,6 +111,20 @@ namespace QL_TruongHoc.GUI
         private void sáchToolStripMenuItem_Click(object sender, EventArgs e)
         {
             var f = new fBooks();
+
+            AddForms(f);
+        }
+
+        private void nhânViênToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            var f = new fAdmin();
+
+            AddForms(f);
+        }
+
+        private void kháchHàngToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            var f = new fCustomers();
 
             AddForms(f);
         }

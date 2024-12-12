@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "KPjLj81RMyo=",
+  "dgSpecHash": "jUGpfjyiHjc=",
   "success": true,
-  "projectFilePath": "C:\\Users\\84826\\source\\repos\\Bookstore\\QL_TruongHoc.csproj",
+  "projectFilePath": "D:\\CCLTHD\\QL_TruongHoc.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\84826\\.nuget\\packages\\dnsclient\\1.6.1\\dnsclient.1.6.1.nupkg.sha512",
     "C:\\Users\\84826\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\2.0.0\\microsoft.extensions.logging.abstractions.2.0.0.nupkg.sha512",
@@ -19,5 +19,12 @@
     "C:\\Users\\84826\\.nuget\\packages\\system.security.principal.windows\\5.0.0\\system.security.principal.windows.5.0.0.nupkg.sha512",
     "C:\\Users\\84826\\.nuget\\packages\\zstdsharp.port\\0.7.3\\zstdsharp.port.0.7.3.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1900",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Error occurred while getting package vulnerability data: Unable to load the service index for source https://api.nuget.org/v3/index.json."
+    }
+  ]
 }

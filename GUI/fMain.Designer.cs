@@ -40,7 +40,6 @@
             ms_content = new MenuStrip();
             sáchToolStripMenuItem = new ToolStripMenuItem();
             nhânViênToolStripMenuItem = new ToolStripMenuItem();
-            toolStripMenuItem1 = new ToolStripMenuItem();
             kháchHàngToolStripMenuItem = new ToolStripMenuItem();
             đơnHàngToolStripMenuItem = new ToolStripMenuItem();
             grb_content = new GroupBox();
@@ -147,50 +146,47 @@
             // 
             ms_content.Font = new Font("Microsoft Sans Serif", 9F);
             ms_content.ImageScalingSize = new Size(20, 20);
-            ms_content.Items.AddRange(new ToolStripItem[] { sáchToolStripMenuItem, nhânViênToolStripMenuItem, toolStripMenuItem1, kháchHàngToolStripMenuItem, đơnHàngToolStripMenuItem });
+            ms_content.Items.AddRange(new ToolStripItem[] { sáchToolStripMenuItem, nhânViênToolStripMenuItem, kháchHàngToolStripMenuItem, đơnHàngToolStripMenuItem });
             ms_content.Location = new Point(15, 37);
             ms_content.Name = "ms_content";
-            ms_content.Size = new Size(1310, 26);
+            ms_content.Size = new Size(1310, 28);
             ms_content.TabIndex = 16;
             ms_content.Text = "menuStrip1";
             // 
             // sáchToolStripMenuItem
             // 
             sáchToolStripMenuItem.Name = "sáchToolStripMenuItem";
-            sáchToolStripMenuItem.Size = new Size(56, 22);
+            sáchToolStripMenuItem.Size = new Size(56, 24);
             sáchToolStripMenuItem.Text = "Sách";
             sáchToolStripMenuItem.Click += sáchToolStripMenuItem_Click;
             // 
             // nhânViênToolStripMenuItem
             // 
             nhânViênToolStripMenuItem.Name = "nhânViênToolStripMenuItem";
-            nhânViênToolStripMenuItem.Size = new Size(87, 22);
+            nhânViênToolStripMenuItem.Size = new Size(87, 24);
             nhânViênToolStripMenuItem.Text = "Nhân viên";
-            // 
-            // toolStripMenuItem1
-            // 
-            toolStripMenuItem1.Name = "toolStripMenuItem1";
-            toolStripMenuItem1.Size = new Size(14, 22);
+            nhânViênToolStripMenuItem.Click += nhânViênToolStripMenuItem_Click;
             // 
             // kháchHàngToolStripMenuItem
             // 
             kháchHàngToolStripMenuItem.Name = "kháchHàngToolStripMenuItem";
-            kháchHàngToolStripMenuItem.Size = new Size(100, 22);
+            kháchHàngToolStripMenuItem.Size = new Size(100, 24);
             kháchHàngToolStripMenuItem.Text = "Khách hàng";
+            kháchHàngToolStripMenuItem.Click += kháchHàngToolStripMenuItem_Click;
             // 
             // đơnHàngToolStripMenuItem
             // 
             đơnHàngToolStripMenuItem.Name = "đơnHàngToolStripMenuItem";
-            đơnHàngToolStripMenuItem.Size = new Size(86, 22);
+            đơnHàngToolStripMenuItem.Size = new Size(86, 24);
             đơnHàngToolStripMenuItem.Text = "Đơn hàng";
             // 
             // grb_content
             // 
             grb_content.BackColor = Color.LightSlateGray;
             grb_content.Dock = DockStyle.Fill;
-            grb_content.Location = new Point(15, 63);
+            grb_content.Location = new Point(15, 65);
             grb_content.Name = "grb_content";
-            grb_content.Size = new Size(1310, 762);
+            grb_content.Size = new Size(1310, 760);
             grb_content.TabIndex = 17;
             grb_content.TabStop = false;
             // 
@@ -230,7 +226,6 @@
         private GroupBox grb_content;
         private ToolStripMenuItem sáchToolStripMenuItem;
         private ToolStripMenuItem nhânViênToolStripMenuItem;
-        private ToolStripMenuItem toolStripMenuItem1;
         private ToolStripMenuItem kháchHàngToolStripMenuItem;
         private ToolStripMenuItem đơnHàngToolStripMenuItem;
     }

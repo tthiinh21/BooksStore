@@ -131,9 +131,6 @@ namespace QL_TruongHoc.GUI
                     Rating = Convert.ToDouble(textBox7.Text),
                     Genres = genresList,
                     LastModified = DateTime.Now
-
-
-                    //Genres = new List<string> { "Drama", "Thriller" },
                 };
 
                 collection.InsertOne(newBooks);
@@ -145,8 +142,6 @@ namespace QL_TruongHoc.GUI
 
         private void button2_Click(object sender, EventArgs e)
         {
-            var collection = ConnectToDatabase.GetDatabase().GetCollection<Books>("books");
-
             if (string.IsNullOrEmpty(textBox2.Text))
             {
                 MessageBox.Show("Chưa nhập Title");
@@ -194,6 +189,7 @@ namespace QL_TruongHoc.GUI
                     .Split(new char[] { ',' }, StringSplitOptions.RemoveEmptyEntries)
                     .Select(g => g.Trim())
                     .ToList();
+                var collection = ConnectToDatabase.GetDatabase().GetCollection<Books>("books");
 
                 var filter = Builders<Books>.Filter.Eq(d => d.Id, textBox1.Text);
                 var update = Builders<Books>.Update
