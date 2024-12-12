@@ -29,11 +29,12 @@
         private void InitializeComponent()
         {
             pn_top = new Panel();
-            ptb_maxisize = new Panel();
             ptb_close = new Panel();
+            ptb_maxisize = new Panel();
             ptb_minisize = new Panel();
             lb_logo = new Label();
             ptb_logo = new Panel();
+            ptb = new PictureBox();
             pn_bottom = new Panel();
             pn_left = new Panel();
             pn_right = new Panel();
@@ -44,14 +45,16 @@
             đơnHàngToolStripMenuItem = new ToolStripMenuItem();
             grb_content = new GroupBox();
             pn_top.SuspendLayout();
+            ptb_logo.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)ptb).BeginInit();
             ms_content.SuspendLayout();
             SuspendLayout();
             // 
             // pn_top
             // 
             pn_top.BackColor = Color.LightSlateGray;
-            pn_top.Controls.Add(ptb_maxisize);
             pn_top.Controls.Add(ptb_close);
+            pn_top.Controls.Add(ptb_maxisize);
             pn_top.Controls.Add(ptb_minisize);
             pn_top.Controls.Add(lb_logo);
             pn_top.Controls.Add(ptb_logo);
@@ -61,17 +64,6 @@
             pn_top.Size = new Size(1340, 37);
             pn_top.TabIndex = 5;
             pn_top.MouseDown += pn_top_MouseDown;
-            // 
-            // ptb_maxisize
-            // 
-            ptb_maxisize.Anchor = AnchorStyles.Top | AnchorStyles.Right;
-            ptb_maxisize.BackColor = Color.LightCyan;
-            ptb_maxisize.Cursor = Cursors.Hand;
-            ptb_maxisize.Location = new Point(1268, 2);
-            ptb_maxisize.Name = "ptb_maxisize";
-            ptb_maxisize.Size = new Size(33, 31);
-            ptb_maxisize.TabIndex = 3;
-            ptb_maxisize.Click += ptb_maxisize_Click;
             // 
             // ptb_close
             // 
@@ -83,6 +75,17 @@
             ptb_close.Size = new Size(33, 31);
             ptb_close.TabIndex = 2;
             ptb_close.Click += ptb_close_Click;
+            // 
+            // ptb_maxisize
+            // 
+            ptb_maxisize.Anchor = AnchorStyles.Top | AnchorStyles.Right;
+            ptb_maxisize.BackColor = Color.LightCyan;
+            ptb_maxisize.Cursor = Cursors.Hand;
+            ptb_maxisize.Location = new Point(1268, 2);
+            ptb_maxisize.Name = "ptb_maxisize";
+            ptb_maxisize.Size = new Size(33, 31);
+            ptb_maxisize.TabIndex = 3;
+            ptb_maxisize.Click += ptb_maxisize_Click;
             // 
             // ptb_minisize
             // 
@@ -103,17 +106,28 @@
             lb_logo.ForeColor = Color.White;
             lb_logo.Location = new Point(45, 10);
             lb_logo.Name = "lb_logo";
-            lb_logo.Size = new Size(187, 18);
+            lb_logo.Size = new Size(127, 18);
             lb_logo.TabIndex = 1;
-            lb_logo.Text = "Phần mềm quản lý sách";
+            lb_logo.Text = "Books Manager";
             // 
             // ptb_logo
             // 
             ptb_logo.BackColor = Color.LightCyan;
+            ptb_logo.Controls.Add(ptb);
             ptb_logo.Location = new Point(4, 2);
             ptb_logo.Name = "ptb_logo";
             ptb_logo.Size = new Size(30, 31);
             ptb_logo.TabIndex = 0;
+            // 
+            // ptb
+            // 
+            ptb.Dock = DockStyle.Fill;
+            ptb.Location = new Point(0, 0);
+            ptb.Name = "ptb";
+            ptb.Size = new Size(30, 31);
+            ptb.SizeMode = PictureBoxSizeMode.StretchImage;
+            ptb.TabIndex = 0;
+            ptb.TabStop = false;
             // 
             // pn_bottom
             // 
@@ -156,29 +170,54 @@
             // sáchToolStripMenuItem
             // 
             sáchToolStripMenuItem.Name = "sáchToolStripMenuItem";
+<<<<<<< HEAD
             sáchToolStripMenuItem.Size = new Size(56, 24);
             sáchToolStripMenuItem.Text = "Sách";
+=======
+            sáchToolStripMenuItem.Size = new Size(66, 22);
+            sáchToolStripMenuItem.Text = "Books";
+>>>>>>> 3fe8e25eac4c8a09f708bd5d6e2a805f7b17a79c
             sáchToolStripMenuItem.Click += sáchToolStripMenuItem_Click;
             // 
             // nhânViênToolStripMenuItem
             // 
             nhânViênToolStripMenuItem.Name = "nhânViênToolStripMenuItem";
+<<<<<<< HEAD
             nhânViênToolStripMenuItem.Size = new Size(87, 24);
             nhânViênToolStripMenuItem.Text = "Nhân viên";
             nhânViênToolStripMenuItem.Click += nhânViênToolStripMenuItem_Click;
+=======
+            nhânViênToolStripMenuItem.Size = new Size(60, 22);
+            nhânViênToolStripMenuItem.Text = "Staffs";
+            // 
+            // toolStripMenuItem1
+            // 
+            toolStripMenuItem1.Name = "toolStripMenuItem1";
+            toolStripMenuItem1.Size = new Size(14, 22);
+>>>>>>> 3fe8e25eac4c8a09f708bd5d6e2a805f7b17a79c
             // 
             // kháchHàngToolStripMenuItem
             // 
             kháchHàngToolStripMenuItem.Name = "kháchHàngToolStripMenuItem";
+<<<<<<< HEAD
             kháchHàngToolStripMenuItem.Size = new Size(100, 24);
             kháchHàngToolStripMenuItem.Text = "Khách hàng";
             kháchHàngToolStripMenuItem.Click += kháchHàngToolStripMenuItem_Click;
+=======
+            kháchHàngToolStripMenuItem.Size = new Size(96, 22);
+            kháchHàngToolStripMenuItem.Text = "Customers";
+>>>>>>> 3fe8e25eac4c8a09f708bd5d6e2a805f7b17a79c
             // 
             // đơnHàngToolStripMenuItem
             // 
             đơnHàngToolStripMenuItem.Name = "đơnHàngToolStripMenuItem";
+<<<<<<< HEAD
             đơnHàngToolStripMenuItem.Size = new Size(86, 24);
             đơnHàngToolStripMenuItem.Text = "Đơn hàng";
+=======
+            đơnHàngToolStripMenuItem.Size = new Size(68, 22);
+            đơnHàngToolStripMenuItem.Text = "Orders";
+>>>>>>> 3fe8e25eac4c8a09f708bd5d6e2a805f7b17a79c
             // 
             // grb_content
             // 
@@ -206,6 +245,8 @@
             Text = "fMain";
             pn_top.ResumeLayout(false);
             pn_top.PerformLayout();
+            ptb_logo.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)ptb).EndInit();
             ms_content.ResumeLayout(false);
             ms_content.PerformLayout();
             ResumeLayout(false);
@@ -228,5 +269,6 @@
         private ToolStripMenuItem nhânViênToolStripMenuItem;
         private ToolStripMenuItem kháchHàngToolStripMenuItem;
         private ToolStripMenuItem đơnHàngToolStripMenuItem;
+        private PictureBox ptb;
     }
 }
