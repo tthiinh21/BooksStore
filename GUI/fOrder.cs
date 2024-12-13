@@ -248,6 +248,36 @@ namespace QL_TruongHoc.GUI
             {
                 MessageBox.Show("Lỗi khi tìm kiếm: " + ex.Message);
             }
-}
+        }
+
+        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+            if (dataGridView1.CurrentRow != null)
+            {
+                txt_order_code.Text = dataGridView1.CurrentRow.Cells["Id"].Value.ToString();
+                txt_order_date.Text = dataGridView1.CurrentRow.Cells["Order_date"].Value.ToString();
+                txt_order_total.Text = Convert.ToInt32(dataGridView1.CurrentRow.Cells["Total"].Value).ToString();
+                txt_note.Text = dataGridView1.CurrentRow.Cells["Note"].Value.ToString();
+                txt_order_shipping.Text = dataGridView1.CurrentRow.Cells["Shipping"].Value.ToString();
+                //txt.Text = Convert.ToDouble(dataGridView1.CurrentRow.Cells["Rating"].Value).ToString("F2");
+                //textBox10.Text = dataGridView1.CurrentRow.Cells["Genres"].Value.ToString();
+                //List<ProductInOrder> productInOrders = dataGridView1.CurrentRow.Cells["ListProduct"].Value;
+
+
+
+
+                var collection = ConnectToDatabase.GetDatabase().GetCollection<Orders>("orders");
+                List<Orders> orders = collection.Find(FilterDefinition<Orders>.Empty).ToList();
+
+                //Danh sach SP
+                LoadDataProductOrder(orders[dataGridView1.CurrentRow.Index].ListProduct);
+
+                //Ten KH
+                txt_order_customer.Text = findCustomerOrderById(orders[dataGridView1.CurrentRow.Index].Customer).Name;
+
+                //Phuong thuc thanh toan 
+                ccb_pay.Text = orders[dataGridView1.CurrentRow.Index].payment[0].method_pay;
+            }
+        }
     }
 }

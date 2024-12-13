@@ -32,6 +32,8 @@
             label1 = new Label();
             splitContainer1 = new SplitContainer();
             splitContainer2 = new SplitContainer();
+            btn_search = new Button();
+            ccb_customer_search = new ComboBox();
             ccb_pay = new ComboBox();
             btn_add_order = new Button();
             btn_delete_order = new Button();
@@ -52,8 +54,6 @@
             label2 = new Label();
             dataGridView2 = new DataGridView();
             dataGridView1 = new DataGridView();
-            ccb_customer_search = new ComboBox();
-            btn_search = new Button();
             panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)splitContainer1).BeginInit();
             splitContainer1.Panel1.SuspendLayout();
@@ -143,6 +143,28 @@
             splitContainer2.Size = new Size(570, 655);
             splitContainer2.SplitterDistance = 479;
             splitContainer2.TabIndex = 0;
+            // 
+            // btn_search
+            // 
+            btn_search.Anchor = AnchorStyles.Top;
+            btn_search.BackColor = Color.LightSlateGray;
+            btn_search.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
+            btn_search.ForeColor = Color.White;
+            btn_search.Location = new Point(22, 58);
+            btn_search.Name = "btn_search";
+            btn_search.Size = new Size(79, 30);
+            btn_search.TabIndex = 25;
+            btn_search.Text = "Search";
+            btn_search.UseVisualStyleBackColor = false;
+            btn_search.Click += btn_search_Click;
+            // 
+            // ccb_customer_search
+            // 
+            ccb_customer_search.FormattingEnabled = true;
+            ccb_customer_search.Location = new Point(115, 60);
+            ccb_customer_search.Name = "ccb_customer_search";
+            ccb_customer_search.Size = new Size(125, 28);
+            ccb_customer_search.TabIndex = 24;
             // 
             // ccb_pay
             // 
@@ -348,29 +370,8 @@
             dataGridView1.RowHeadersWidthSizeMode = DataGridViewRowHeadersWidthSizeMode.AutoSizeToAllHeaders;
             dataGridView1.Size = new Size(695, 655);
             dataGridView1.TabIndex = 0;
-            dataGridView1.SelectionChanged += dataGridView1_SelectionChanged;
-            // 
-            // ccb_customer_search
-            // 
-            ccb_customer_search.FormattingEnabled = true;
-            ccb_customer_search.Location = new Point(115, 60);
-            ccb_customer_search.Name = "ccb_customer_search";
-            ccb_customer_search.Size = new Size(125, 28);
-            ccb_customer_search.TabIndex = 24;
-            // 
-            // btn_search
-            // 
-            btn_search.Anchor = AnchorStyles.Top;
-            btn_search.BackColor = Color.LightSlateGray;
-            btn_search.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
-            btn_search.ForeColor = Color.White;
-            btn_search.Location = new Point(22, 58);
-            btn_search.Name = "btn_search";
-            btn_search.Size = new Size(79, 30);
-            btn_search.TabIndex = 25;
-            btn_search.Text = "Search";
-            btn_search.UseVisualStyleBackColor = false;
-            btn_search.Click += btn_search_Click;
+            dataGridView1.CellContentClick += dataGridView1_CellContentClick;
+            //dataGridView1.SelectionChanged += dataGridView1_SelectionChanged;
             // 
             // fOrder
             // 
