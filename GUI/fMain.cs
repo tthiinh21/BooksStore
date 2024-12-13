@@ -128,5 +128,12 @@ namespace QL_TruongHoc.GUI
 
             AddForms(f);
         }
+
+        private void đơnHàngToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            var f = new fOrder();
+
+            AddForms(f);
+        }
     }
 }

@@ -170,52 +170,30 @@
             // sáchToolStripMenuItem
             // 
             sáchToolStripMenuItem.Name = "sáchToolStripMenuItem";
-
-            sáchToolStripMenuItem.Size = new Size(56, 24);
-            sáchToolStripMenuItem.Text = "Sách";
-
-            sáchToolStripMenuItem.Size = new Size(66, 22);
+            sáchToolStripMenuItem.Size = new Size(66, 24);
             sáchToolStripMenuItem.Text = "Books";
-
             sáchToolStripMenuItem.Click += sáchToolStripMenuItem_Click;
             // 
             // nhânViênToolStripMenuItem
             // 
             nhânViênToolStripMenuItem.Name = "nhânViênToolStripMenuItem";
-
-            nhânViênToolStripMenuItem.Size = new Size(87, 24);
-            nhânViênToolStripMenuItem.Text = "Nhân viên";
-            nhânViênToolStripMenuItem.Click += nhânViênToolStripMenuItem_Click;
-
-            nhânViênToolStripMenuItem.Size = new Size(60, 22);
+            nhânViênToolStripMenuItem.Size = new Size(60, 24);
             nhânViênToolStripMenuItem.Text = "Staffs";
-            // 
-            // toolStripMenuItem1
-            // 
-
+            nhânViênToolStripMenuItem.Click += nhânViênToolStripMenuItem_Click;
             // 
             // kháchHàngToolStripMenuItem
             // 
             kháchHàngToolStripMenuItem.Name = "kháchHàngToolStripMenuItem";
-
-            kháchHàngToolStripMenuItem.Size = new Size(100, 24);
-            kháchHàngToolStripMenuItem.Text = "Khách hàng";
-            kháchHàngToolStripMenuItem.Click += kháchHàngToolStripMenuItem_Click;
-
-            kháchHàngToolStripMenuItem.Size = new Size(96, 22);
+            kháchHàngToolStripMenuItem.Size = new Size(96, 24);
             kháchHàngToolStripMenuItem.Text = "Customers";
-
+            kháchHàngToolStripMenuItem.Click += kháchHàngToolStripMenuItem_Click;
             // 
             // đơnHàngToolStripMenuItem
             // 
             đơnHàngToolStripMenuItem.Name = "đơnHàngToolStripMenuItem";
-
-            đơnHàngToolStripMenuItem.Size = new Size(86, 24);
-            đơnHàngToolStripMenuItem.Text = "Đơn hàng";
-
-            đơnHàngToolStripMenuItem.Size = new Size(68, 22);
+            đơnHàngToolStripMenuItem.Size = new Size(68, 24);
             đơnHàngToolStripMenuItem.Text = "Orders";
-
+            đơnHàngToolStripMenuItem.Click += đơnHàngToolStripMenuItem_Click;
             // 
             // grb_content
             // 

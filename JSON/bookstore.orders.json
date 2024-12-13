@@ -1,0 +1,414 @@
+[{
+  "_id": {
+    "$oid": "6624d45bc8aeec375ae10252"
+  },
+  "order_code": "123456",
+  "customer": {
+    "$oid": "6624d1b43a67b269ca0be50f"
+  },
+  "shipping": "Q8 TPHCM",
+  "total": 40000,
+  "order_date": "07-04-2024",
+  "product": [
+    {
+      "name_p": "Conan Tham Tu Lung Danh",
+      "qty_p": 2,
+      "price_p": 20000
+    }
+  ],
+  "pay": [
+    {
+      "method_pay": "ATM",
+      "status": "success"
+    }
+  ],
+  "note": "Giao nhanh trong ngay!"
+},
+{
+  "_id": {
+    "$oid": "662655f637630a71e83f4117"
+  },
+  "order_code": "123457",
+  "customer": {
+    "$oid": "6624d1b43a67b269ca0be50f"
+  },
+  "shipping": "Q8 TPHCM",
+  "total": 100000,
+  "order_date": "08-04-2024",
+  "product": [
+    {
+      "name_p": "Name of the Wind",
+      "qty_p": 2,
+      "price_p": 20000
+    },
+    {
+      "name_p": "The color of magic",
+      "qty_p": 3,
+      "price_p": 20000
+    }
+  ],
+  "pay": [
+    {
+      "method_pay": "ATM",
+      "status": "success"
+    }
+  ],
+  "note": "Giao nhanh trong chieu!"
+},
+{
+  "_id": {
+    "$oid": "662655f637630a71e83f4118"
+  },
+  "order_code": "123458",
+  "customer": {
+    "$oid": "6624d1b43a67b269ca0be50f"
+  },
+  "shipping": "Q8 TPHCM",
+  "total": 120000,
+  "order_date": "09-04-2024",
+  "product": [
+    {
+      "name_p": "The Hobbit",
+      "qty_p": 1,
+      "price_p": 40000
+    },
+    {
+      "name_p": "To Kill a Mockingbird",
+      "qty_p": 1,
+      "price_p": 40000
+    },
+    {
+      "name_p": "The Great Gatsby",
+      "qty_p": 1,
+      "price_p": 40000
+    }
+  ],
+  "pay": [
+    {
+      "method_pay": "Credit Card",
+      "status": "success"
+    }
+  ],
+  "note": "Fast delivery in the afternoon!"
+},
+{
+  "_id": {
+    "$oid": "662655f637630a71e83f4119"
+  },
+  "order_code": "123459",
+  "customer": {
+    "$oid": "6624d1b43a67b269ca0be50f"
+  },
+  "shipping": "Q8 TPHCM",
+  "total": 80000,
+  "order_date": "10-04-2024",
+  "product": [
+    {
+      "name_p": "Pride and Prejudice",
+      "qty_p": 1,
+      "price_p": 40000
+    },
+    {
+      "name_p": "The Catcher in the Rye",
+      "qty_p": 1,
+      "price_p": 40000
+    }
+  ],
+  "pay": [
+    {
+      "method_pay": "Cash on delivery",
+      "status": "success"
+    }
+  ],
+  "note": "Please call before delivery!"
+},
+{
+  "_id": {
+    "$oid": "662655f637630a71e83f411a"
+  },
+  "order_code": "123460",
+  "customer": {
+    "$oid": "6624d1b43a67b269ca0be50f"
+  },
+  "shipping": "Q8 TPHCM",
+  "total": 150000,
+  "order_date": "11-04-2024",
+  "product": [
+    {
+      "name_p": "The Lord of the Rings",
+      "qty_p": 2,
+      "price_p": 50000
+    },
+    {
+      "name_p": "The Alchemist",
+      "qty_p": 1,
+      "price_p": 50000
+    }
+  ],
+  "pay": [
+    {
+      "method_pay": "Credit Card",
+      "status": "success"
+    }
+  ],
+  "note": "Deliver before 5pm!"
+},
+{
+  "_id": {
+    "$oid": "662655f637630a71e83f411b"
+  },
+  "order_code": "123461",
+  "customer": {
+    "$oid": "6624d1b43a67b269ca0be50f"
+  },
+  "shipping": "Q8 TPHCM",
+  "total": 200000,
+  "order_date": "12-04-2024",
+  "product": [
+    {
+      "name_p": "The Da Vinci Code",
+      "qty_p": 2,
+      "price_p": 60000
+    },
+    {
+      "name_p": "The Girl with the Dragon Tattoo",
+      "qty_p": 1,
+      "price_p": 80000
+    }
+  ],
+  "pay": [
+    {
+      "method_pay": "ATM",
+      "status": "success"
+    }
+  ],
+  "note": "Please handle with care!"
+},
+{
+  "_id": {
+    "$oid": "662655f637630a71e83f411c"
+  },
+  "order_code": "123462",
+  "customer": {
+    "$oid": "66264e27e8aa54ce11442ea8"
+  },
+  "shipping": "Q5 TPHCM",
+  "total": 90000,
+  "order_date": "13-04-2024",
+  "product": [
+    {
+      "name_p": "The Hunger Games",
+      "qty_p": 1,
+      "price_p": 30000
+    },
+    {
+      "name_p": "The Fault in Our Stars",
+      "qty_p": 2,
+      "price_p": 30000
+    }
+  ],
+  "pay": [
+    {
+      "method_pay": "Cash on delivery",
+      "status": "success"
+    }
+  ],
+  "note": "Deliver to reception!"
+},
+{
+  "_id": {
+    "$oid": "662655f637630a71e83f411d"
+  },
+  "order_code": "123463",
+  "customer": {
+    "$oid": "66264e27e8aa54ce11442ea8"
+  },
+  "shipping": "Q5 TPHCM",
+  "total": 180000,
+  "order_date": "14-04-2024",
+  "product": [
+    {
+      "name_p": "The Road",
+      "qty_p": 1,
+      "price_p": 60000
+    },
+    {
+      "name_p": "The Fault in Our Stars",
+      "qty_p": 2,
+      "price_p": 60000
+    }
+  ],
+  "pay": [
+    {
+      "method_pay": "Credit Card",
+      "status": "success"
+    }
+  ],
+  "note": "Leave at the door if no one answers!"
+},
+{
+  "_id": {
+    "$oid": "662655f637630a71e83f411e"
+  },
+  "order_code": "123464",
+  "customer": {
+    "$oid": "66264e27e8aa54ce11442ea8"
+  },
+  "shipping": "Q5 TPHCM",
+  "total": 50000,
+  "order_date": "15-04-2024",
+  "product": [
+    {
+      "name_p": "The Road",
+      "qty_p": 1,
+      "price_p": 50000
+    }
+  ],
+  "pay": [
+    {
+      "method_pay": "ATM",
+      "status": "success"
+    }
+  ],
+  "note": "Contact before delivery!"
+},
+{
+  "_id": {
+    "$oid": "662655f637630a71e83f411f"
+  },
+  "order_code": "123465",
+  "customer": {
+    "$oid": "66264e27e8aa54ce11442ea8"
+  },
+  "shipping": "Q5 TPHCM",
+  "total": 120000,
+  "order_date": "16-04-2024",
+  "product": [
+    {
+      "name_p": "The Alchemist",
+      "qty_p": 2,
+      "price_p": 60000
+    }
+  ],
+  "pay": [
+    {
+      "method_pay": "Credit Card",
+      "status": "success"
+    }
+  ],
+  "note": "Please call if no one is home!"
+},
+{
+  "_id": {
+    "$oid": "662655f637630a71e83f4120"
+  },
+  "order_code": "123466",
+  "customer": {
+    "$oid": "66264e27e8aa54ce11442ea9"
+  },
+  "shipping": "Q2 TPHCM",
+  "total": 70000,
+  "order_date": "17-04-2024",
+  "product": [
+    {
+      "name_p": "The Picture of Dorian Gray",
+      "qty_p": 2,
+      "price_p": 35000
+    }
+  ],
+  "pay": [
+    {
+      "method_pay": "Cash on delivery",
+      "status": "success"
+    }
+  ],
+  "note": "Delivery after 6pm!"
+},
+{
+  "_id": {
+    "$oid": "662655f637630a71e83f4121"
+  },
+  "order_code": "123467",
+  "customer": {
+    "$oid": "66264e27e8aa54ce11442ea9"
+  },
+  "shipping": "Q2 TPHCM",
+  "total": 130000,
+  "order_date": "18-04-2024",
+  "product": [
+    {
+      "name_p": "The Lord of the Rings",
+      "qty_p": 3,
+      "price_p": 30000
+    },
+    {
+      "name_p": "The Hound of the Baskervilles",
+      "qty_p": 1,
+      "price_p": 40000
+    }
+  ],
+  "pay": [
+    {
+      "method_pay": "Credit Card",
+      "status": "success"
+    }
+  ],
+  "note": "Delivery to the office!"
+},
+{
+  "_id": {
+    "$oid": "662655f637630a71e83f4122"
+  },
+  "order_code": "123468",
+  "customer": {
+    "$oid": "66264e27e8aa54ce11442ea9"
+  },
+  "shipping": "Q2 TPHCM",
+  "total": 180000,
+  "order_date": "19-04-2024",
+  "product": [
+    {
+      "name_p": "Moby-Dick",
+      "qty_p": 1,
+      "price_p": 80000
+    },
+    {
+      "name_p": "The Old Man and the Sea",
+      "qty_p": 2,
+      "price_p": 50000
+    }
+  ],
+  "pay": [
+    {
+      "method_pay": "ATM",
+      "status": "success"
+    }
+  ],
+  "note": "Deliver to reception!"
+},
+{
+  "_id": {
+    "$oid": "675c710ede317a43464170ec"
+  },
+  "order_code": "123455",
+  "customer": {
+    "$oid": "6624d1b43a67b269ca0be50f"
+  },
+  "shipping": "HCM",
+  "total": 20000,
+  "order_date": "14-12-2024",
+  "product": [
+    {
+      "name_p": "Name of the Wind",
+      "qty_p": 1,
+      "price_p": 20000
+    }
+  ],
+  "pay": [
+    {
+      "method_pay": "Cash On Delivery",
+      "status": "success"
+    }
+  ],
+  "note": ""
+}]
