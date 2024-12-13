@@ -380,6 +380,7 @@
             dataGridView1.RowHeadersWidth = 51;
             dataGridView1.Size = new Size(1289, 302);
             dataGridView1.TabIndex = 0;
+            dataGridView1.CellDoubleClick += dataGridView1_CellDoubleClick;
             dataGridView1.SelectionChanged += dataGridView1_SelectionChanged;
             // 
             // fBooks

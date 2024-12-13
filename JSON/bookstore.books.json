@@ -1,0 +1,335 @@
+[{
+  "_id": {
+    "$oid": "661264b3d1f6e0e3d1a2e69a"
+  },
+  "title": "Name of the Wind",
+  "author": "Patrick Rothfuss",
+  "pages": 501,
+  "genres": [
+    "fantasy",
+    "magical"
+  ],
+  "rating": 9,
+  "publisher": "Kim Dong",
+  "price": 20000,
+  "lastModified": {
+    "$date": "2024-12-11T14:24:14.107Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6612a4906928519b5516c9b5"
+  },
+  "title": "The color of magic",
+  "author": "terry prachett",
+  "pages": 300,
+  "rating": 7.95,
+  "genres": [
+    "fantansy",
+    "magic",
+    "mistery"
+  ],
+  "price": 20000,
+  "publisher": "Kim Dong",
+  "lastModified": {
+    "$date": "2024-12-11T14:24:09.332Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "661935f8b0d1effcec24059c"
+  },
+  "title": "The color is Red",
+  "author": "tomholland",
+  "pages": 955,
+  "rating": 5,
+  "genres": [
+    "fantasy",
+    "classic",
+    "romance"
+  ],
+  "publisher": "Kim Dong",
+  "price": 35000,
+  "lastModified": {
+    "$date": "2024-12-11T14:23:57.769Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66264c4de8aa54ce11442e97"
+  },
+  "title": "Name of the Wind",
+  "author": "Patrick Rothfuss",
+  "pages": 532,
+  "genres": [
+    "fantasy",
+    "magical"
+  ],
+  "rating": 9,
+  "publisher": "Kim Dong",
+  "price": 20000,
+  "lastModified": {
+    "$date": "2024-12-11T14:24:17.934Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66264c4de8aa54ce11442e98"
+  },
+  "title": "The Hobbit",
+  "author": "J.R.R. Tolkien",
+  "pages": 368,
+  "genres": [
+    "fantasy",
+    "adventure"
+  ],
+  "rating": 8,
+  "publisher": "Nha Nam",
+  "price": 40000,
+  "lastModified": {
+    "$date": "2024-12-11T14:24:16.191Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66264c4de8aa54ce11442e99"
+  },
+  "title": "Harry Potter and the Philosopher's Stone",
+  "author": "J.K. Rowling",
+  "pages": 483,
+  "genres": [
+    "fantasy",
+    "magic"
+  ],
+  "rating": 9,
+  "publisher": "Tre Publishing House",
+  "price": 50000,
+  "lastModified": {
+    "$date": "2024-12-11T14:24:24.371Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66264c4de8aa54ce11442e9a"
+  },
+  "title": "To Kill a Mockingbird",
+  "author": "Harper Lee",
+  "pages": 352,
+  "genres": [
+    "fiction",
+    "classics"
+  ],
+  "rating": 8,
+  "publisher": "NXB Trẻ",
+  "price": 40000,
+  "lastModified": {
+    "$date": "2024-12-11T14:24:19.551Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66264c4de8aa54ce11442e9b"
+  },
+  "title": "The Great Gatsby",
+  "author": "F. Scott Fitzgerald",
+  "pages": 250,
+  "genres": [
+    "fiction",
+    "classics"
+  ],
+  "rating": 8,
+  "publisher": "NXB Văn Học",
+  "price": 40000
+},
+{
+  "_id": {
+    "$oid": "66264c4de8aa54ce11442e9c"
+  },
+  "title": "1984",
+  "author": "George Orwell",
+  "pages": 320,
+  "genres": [
+    "dystopian",
+    "fiction"
+  ],
+  "rating": 9,
+  "publisher": "NXB Đại Học Quốc Gia Hà Nội",
+  "price": 30000,
+  "lastModified": {
+    "$date": "2024-12-11T14:24:27.516Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66264c4de8aa54ce11442e9d"
+  },
+  "title": "Pride and Prejudice",
+  "author": "Jane Austen",
+  "pages": 380,
+  "genres": [
+    "romance",
+    "mistery",
+    "fantasy",
+    "classic"
+  ],
+  "rating": 8,
+  "publisher": "NXB Hội Nhà Văn",
+  "price": 40000,
+  "lastModified": {
+    "$date": "2024-12-11T14:58:53.020Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66264c4de8aa54ce11442e9e"
+  },
+  "title": "The Catcher in the Rye",
+  "author": "J.D. Salinger",
+  "pages": 277,
+  "genres": [
+    "fiction",
+    "coming-of-age"
+  ],
+  "rating": 7,
+  "publisher": "NXB Văn Học",
+  "price": 40000
+},
+{
+  "_id": {
+    "$oid": "66264c4de8aa54ce11442e9f"
+  },
+  "title": "The Lord of the Rings",
+  "author": "J.R.R. Tolkien",
+  "pages": 1203,
+  "genres": [
+    "fantasy",
+    "adventure"
+  ],
+  "rating": 8.26,
+  "publisher": "Nha Nam",
+  "price": 50000,
+  "lastModified": {
+    "$date": "2024-12-11T14:24:41.338Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66264c4de8aa54ce11442ea0"
+  },
+  "title": "The Alchemist",
+  "author": "Paulo Coelho",
+  "pages": 279,
+  "genres": [
+    "fiction",
+    "philosophical"
+  ],
+  "rating": 8,
+  "publisher": "Nha Nam",
+  "price": 50000
+},
+{
+  "_id": {
+    "$oid": "66264c4de8aa54ce11442ea1"
+  },
+  "title": "The Da Vinci Code",
+  "author": "Dan Brown",
+  "pages": 450,
+  "genres": [
+    "mystery",
+    "thriller"
+  ],
+  "rating": 7,
+  "publisher": "Nha Nam",
+  "price": 60000
+},
+{
+  "_id": {
+    "$oid": "66264c4de8aa54ce11442ea2"
+  },
+  "title": "The Girl with the Dragon Tattoo",
+  "author": "Stieg Larsson",
+  "pages": 1000,
+  "genres": [
+    "mystery",
+    "crime"
+  ],
+  "rating": 8,
+  "publisher": "Nha Nam",
+  "price": 80000,
+  "lastModified": {
+    "$date": "2024-12-11T14:24:31.367Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66264c4de8aa54ce11442ea3"
+  },
+  "title": "The Hunger Games",
+  "author": "Suzanne Collins",
+  "pages": 370,
+  "genres": [
+    "dystopian",
+    "science fiction"
+  ],
+  "rating": 9,
+  "publisher": "Tre Publishing House",
+  "price": 30000,
+  "lastModified": {
+    "$date": "2024-12-11T14:24:38.534Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66264c4de8aa54ce11442ea4"
+  },
+  "title": "The Fault in Our Stars",
+  "author": "John Green",
+  "pages": 311,
+  "genres": [
+    "young adult",
+    "romance"
+  ],
+  "rating": 7,
+  "publisher": "NXB Hội Nhà Văn",
+  "price": 30000,
+  "lastModified": {
+    "$date": "2024-12-11T14:27:50.983Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66264c4de8aa54ce11442ea5"
+  },
+  "title": "The Road",
+  "author": "Cormac McCarthy",
+  "pages": 295,
+  "genres": [
+    "post-apocalyptic",
+    "dystopian"
+  ],
+  "rating": 9,
+  "publisher": "NXB Đại Học Quốc Gia Hà Nội",
+  "price": 60000,
+  "lastModified": {
+    "$date": "2024-12-11T14:27:54.065Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6759aaf5f9123b198aac9dde"
+  },
+  "title": "The color is Red",
+  "author": "tomholland",
+  "pages": 90,
+  "genres": [
+    "fantasy",
+    "classic",
+    "romance"
+  ],
+  "rating": 5,
+  "publisher": "Kim Dong",
+  "price": 35000,
+  "lastModified": {
+    "$date": "2024-12-11T15:09:01.808Z"
+  }
+}]

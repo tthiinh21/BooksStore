@@ -1,0 +1,165 @@
+[{
+  "_id": {
+    "$oid": "66264aa5e8aa54ce11442e82"
+  },
+  "email": "user1@gmail.com",
+  "password": "123456",
+  "name": "Tran Thi B",
+  "phone": "0987654321",
+  "address": "Ha Noi",
+  "roles": "User"
+},
+{
+  "_id": {
+    "$oid": "66264aa5e8aa54ce11442e83"
+  },
+  "email": "user2@gmail.com",
+  "password": "123456",
+  "name": "Le Van C",
+  "phone": "0123456789",
+  "address": "Da Nang",
+  "roles": "User"
+},
+{
+  "_id": {
+    "$oid": "66264aa5e8aa54ce11442e84"
+  },
+  "email": "admin2@gmail.com",
+  "password": "admin123",
+  "name": "Pham Thi D",
+  "phone": "0765432109",
+  "address": "Can Tho",
+  "roles": "Admin"
+},
+{
+  "_id": {
+    "$oid": "66264aa5e8aa54ce11442e85"
+  },
+  "email": "user3@gmail.com",
+  "password": "123456",
+  "name": "Hoang Van E",
+  "phone": "0912345678",
+  "address": "Hai Phong",
+  "roles": "User"
+},
+{
+  "_id": {
+    "$oid": "66264aa5e8aa54ce11442e86"
+  },
+  "email": "user4@gmail.com",
+  "password": "123456",
+  "name": "Nguyen Thi F",
+  "phone": "0876543210",
+  "address": "Vung Tau",
+  "roles": "User"
+},
+{
+  "_id": {
+    "$oid": "66264aa5e8aa54ce11442e87"
+  },
+  "email": "admin3@gmail.com",
+  "password": "admin456",
+  "name": "Tran Van G",
+  "phone": "0998877665",
+  "address": "Quang Nam",
+  "roles": "Admin"
+},
+{
+  "_id": {
+    "$oid": "66264aa5e8aa54ce11442e88"
+  },
+  "email": "user5@gmail.com",
+  "password": "123456",
+  "name": "Le Thi H",
+  "phone": "0928374651",
+  "address": "Hue",
+  "roles": "User"
+},
+{
+  "_id": {
+    "$oid": "66264aa5e8aa54ce11442e89"
+  },
+  "email": "user6@gmail.com",
+  "password": "123456",
+  "name": "Nguyen Van I",
+  "phone": "0847382910",
+  "address": "Nha Trang",
+  "roles": "User"
+},
+{
+  "_id": {
+    "$oid": "66264aa5e8aa54ce11442e8a"
+  },
+  "email": "admin4@gmail.com",
+  "password": "adminpass",
+  "name": "Pham Van K",
+  "phone": "0918273645",
+  "address": "Long An",
+  "roles": "Admin"
+},
+{
+  "_id": {
+    "$oid": "66264aa5e8aa54ce11442e8b"
+  },
+  "email": "user7@gmail.com",
+  "password": "123456",
+  "name": "Tran Thi L",
+  "phone": "0867451923",
+  "address": "An Giang",
+  "roles": "User"
+},
+{
+  "_id": {
+    "$oid": "66264aa5e8aa54ce11442e8c"
+  },
+  "email": "user8@gmail.com",
+  "password": "123456",
+  "name": "Le Van M",
+  "phone": "0938271645",
+  "address": "Tien Giang",
+  "roles": "User"
+},
+{
+  "_id": {
+    "$oid": "66264aa5e8aa54ce11442e8d"
+  },
+  "email": "admin5@gmail.com",
+  "password": "adminpass123",
+  "name": "Nguyen Thi N",
+  "phone": "0947263815",
+  "address": "Kien Giang",
+  "roles": "Admin"
+},
+{
+  "_id": {
+    "$oid": "66264aa5e8aa54ce11442e8e"
+  },
+  "email": "user9@gmail.com",
+  "password": "123456",
+  "name": "Pham Van O",
+  "phone": "0918273645",
+  "address": "Dong Thap",
+  "roles": "User"
+},
+{
+  "_id": {
+    "$oid": "66264aa5e8aa54ce11442e8f"
+  },
+  "email": "user10@gmail.com",
+  "password": "123456",
+  "name": "Tran Thi P",
+  "phone": "0867451923",
+  "address": "Ben Tre",
+  "roles": "User"
+},
+{
+  "_id": {
+    "$oid": "66264aa5e8aa54ce11442e90"
+  },
+  "email": "admin6@gmail.com",
+  "password": "111111",
+  "name": "Le Van Q",
+  "phone": "0938271645",
+  "address": "Tra Vinh",
+  "roles": "User"
+}]

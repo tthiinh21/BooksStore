@@ -137,7 +137,7 @@ namespace QL_TruongHoc.GUI
                 MessageBox.Show("Thêm sản phẩm thành công!");
                 LoadData(); //
             }
-                
+
         }
 
         private void button2_Click(object sender, EventArgs e)
@@ -278,6 +278,12 @@ namespace QL_TruongHoc.GUI
             {
                 MessageBox.Show("Lỗi khi tìm kiếm: " + ex.Message);
             }
+        }
+
+        private void dataGridView1_CellDoubleClick(object sender, DataGridViewCellEventArgs e)
+        {
+            var f = new fComments(textBox1.Text);
+            f.Show();
         }
     }
 }
